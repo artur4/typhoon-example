@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A94C3E957EAD425B301078C /* libPods-Typhoon-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFD0FD8ECFCE37303BEB214 /* libPods-Typhoon-example.a */; };
+		63057CB01D7AD40700BB075E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63057CAF1D7AD40700BB075E /* main.m */; };
+		63057CB31D7AD40700BB075E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63057CB21D7AD40700BB075E /* AppDelegate.m */; };
+		63057CB91D7AD40700BB075E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63057CB71D7AD40700BB075E /* Main.storyboard */; };
+		63057CBB1D7AD40700BB075E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63057CBA1D7AD40700BB075E /* Assets.xcassets */; };
+		63057CBE1D7AD40700BB075E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63057CBC1D7AD40700BB075E /* LaunchScreen.storyboard */; };
+		63057CC91D7AD40800BB075E /* Typhoon_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63057CC81D7AD40800BB075E /* Typhoon_exampleTests.m */; };
+		6378BA531D7C76BB0097FDB6 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA4F1D7C76BB0097FDB6 /* DataModel.m */; };
+		6378BA541D7C76BB0097FDB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA521D7C76BB0097FDB6 /* ViewController.m */; };
+		6378BA5B1D7C77610097FDB6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA5A1D7C77610097FDB6 /* DetailViewController.m */; };
+		6378BA5E1D7C7DD40097FDB6 /* DetailDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA5D1D7C7DD40097FDB6 /* DetailDataModel.m */; };
+		6378BA631D7C8FAB0097FDB6 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA621D7C8FAB0097FDB6 /* CoreDataManager.m */; };
+		6378BA661D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA641D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodeld */; };
+		6378BA6B1D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA681D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.m */; };
+		6378BA6C1D7C94EA0097FDB6 /* DetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA6A1D7C94EA0097FDB6 /* DetailItem.m */; };
+		6378BA731D7C968F0097FDB6 /* DetailAppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378BA721D7C968F0097FDB6 /* DetailAppAssembly.m */; };
+		63F377F71D7ADB7B0020DCBA /* AppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F377F61D7ADB7B0020DCBA /* AppAssembly.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63057CC51D7AD40800BB075E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63057CA31D7AD40700BB075E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63057CAA1D7AD40700BB075E;
+			remoteInfo = "Typhoon-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E332A7A7BA8F5042A8B3C56 /* Pods-Typhoon-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Typhoon-example/Pods-Typhoon-example.release.xcconfig"; sourceTree = "<group>"; };
+		5BFD0FD8ECFCE37303BEB214 /* libPods-Typhoon-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Typhoon-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63057CAB1D7AD40700BB075E /* Typhoon-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typhoon-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63057CAF1D7AD40700BB075E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63057CB11D7AD40700BB075E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63057CB21D7AD40700BB075E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63057CB81D7AD40700BB075E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63057CBA1D7AD40700BB075E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63057CBD1D7AD40700BB075E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63057CBF1D7AD40800BB075E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63057CC41D7AD40800BB075E /* Typhoon-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typhoon-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63057CC81D7AD40800BB075E /* Typhoon_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Typhoon_exampleTests.m; sourceTree = "<group>"; };
+		63057CCA1D7AD40800BB075E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6378BA4E1D7C76BB0097FDB6 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		6378BA4F1D7C76BB0097FDB6 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		6378BA501D7C76BB0097FDB6 /* DataModelConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelConfigurator.h; sourceTree = "<group>"; };
+		6378BA511D7C76BB0097FDB6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6378BA521D7C76BB0097FDB6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6378BA591D7C77610097FDB6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6378BA5A1D7C77610097FDB6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6378BA5C1D7C7DD40097FDB6 /* DetailDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailDataModel.h; sourceTree = "<group>"; };
+		6378BA5D1D7C7DD40097FDB6 /* DetailDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailDataModel.m; sourceTree = "<group>"; };
+		6378BA5F1D7C7DEE0097FDB6 /* DetailDataModelConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailDataModelConfigurator.h; sourceTree = "<group>"; };
+		6378BA611D7C8FAB0097FDB6 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		6378BA621D7C8FAB0097FDB6 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		6378BA651D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Typhoon-example.xcdatamodel"; sourceTree = "<group>"; };
+		6378BA671D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DetailItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6378BA681D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DetailItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6378BA691D7C94EA0097FDB6 /* DetailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailItem.h; sourceTree = "<group>"; };
+		6378BA6A1D7C94EA0097FDB6 /* DetailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailItem.m; sourceTree = "<group>"; };
+		6378BA711D7C968F0097FDB6 /* DetailAppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAppAssembly.h; sourceTree = "<group>"; };
+		6378BA721D7C968F0097FDB6 /* DetailAppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAppAssembly.m; sourceTree = "<group>"; };
+		63F377F51D7ADB7B0020DCBA /* AppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAssembly.h; sourceTree = "<group>"; };
+		63F377F61D7ADB7B0020DCBA /* AppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAssembly.m; sourceTree = "<group>"; };
+		CFCE2F9CFCB54A04B23287D5 /* Pods-Typhoon-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Typhoon-example/Pods-Typhoon-example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63057CA81D7AD40700BB075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A94C3E957EAD425B301078C /* libPods-Typhoon-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63057CC11D7AD40800BB075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63057CA21D7AD40700BB075E = {
+			isa = PBXGroup;
+			children = (
+				63057CAD1D7AD40700BB075E /* Typhoon-example */,
+				63057CC71D7AD40800BB075E /* Typhoon-exampleTests */,
+				63057CAC1D7AD40700BB075E /* Products */,
+				E02ADDA409ECC8B7B13FD2B1 /* Pods */,
+				655C49C82FEAE4DB31A49DB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63057CAC1D7AD40700BB075E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63057CAB1D7AD40700BB075E /* Typhoon-example.app */,
+				63057CC41D7AD40800BB075E /* Typhoon-exampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63057CAD1D7AD40700BB075E /* Typhoon-example */ = {
+			isa = PBXGroup;
+			children = (
+				63057CB11D7AD40700BB075E /* AppDelegate.h */,
+				63057CB21D7AD40700BB075E /* AppDelegate.m */,
+				63F377F51D7ADB7B0020DCBA /* AppAssembly.h */,
+				63F377F61D7ADB7B0020DCBA /* AppAssembly.m */,
+				6378BA4D1D7C76BB0097FDB6 /* FirstExample */,
+				6378BA551D7C76E30097FDB6 /* SecondExample */,
+				6378BA601D7C8F820097FDB6 /* CoreDataModel */,
+				63057CB71D7AD40700BB075E /* Main.storyboard */,
+				63057CBA1D7AD40700BB075E /* Assets.xcassets */,
+				63057CBC1D7AD40700BB075E /* LaunchScreen.storyboard */,
+				63057CBF1D7AD40800BB075E /* Info.plist */,
+				63057CAE1D7AD40700BB075E /* Supporting Files */,
+			);
+			path = "Typhoon-example";
+			sourceTree = "<group>";
+		};
+		63057CAE1D7AD40700BB075E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63057CAF1D7AD40700BB075E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63057CC71D7AD40800BB075E /* Typhoon-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				63057CC81D7AD40800BB075E /* Typhoon_exampleTests.m */,
+				63057CCA1D7AD40800BB075E /* Info.plist */,
+			);
+			path = "Typhoon-exampleTests";
+			sourceTree = "<group>";
+		};
+		6378BA4D1D7C76BB0097FDB6 /* FirstExample */ = {
+			isa = PBXGroup;
+			children = (
+				6378BA511D7C76BB0097FDB6 /* ViewController.h */,
+				6378BA521D7C76BB0097FDB6 /* ViewController.m */,
+				6378BA4E1D7C76BB0097FDB6 /* DataModel.h */,
+				6378BA4F1D7C76BB0097FDB6 /* DataModel.m */,
+				6378BA501D7C76BB0097FDB6 /* DataModelConfigurator.h */,
+			);
+			path = FirstExample;
+			sourceTree = "<group>";
+		};
+		6378BA551D7C76E30097FDB6 /* SecondExample */ = {
+			isa = PBXGroup;
+			children = (
+				6378BA701D7C968F0097FDB6 /* Assembly */,
+				6378BA591D7C77610097FDB6 /* DetailViewController.h */,
+				6378BA5A1D7C77610097FDB6 /* DetailViewController.m */,
+				6378BA5C1D7C7DD40097FDB6 /* DetailDataModel.h */,
+				6378BA5D1D7C7DD40097FDB6 /* DetailDataModel.m */,
+				6378BA5F1D7C7DEE0097FDB6 /* DetailDataModelConfigurator.h */,
+			);
+			path = SecondExample;
+			sourceTree = "<group>";
+		};
+		6378BA601D7C8F820097FDB6 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6378BA611D7C8FAB0097FDB6 /* CoreDataManager.h */,
+				6378BA621D7C8FAB0097FDB6 /* CoreDataManager.m */,
+				6378BA641D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodeld */,
+				6378BA671D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.h */,
+				6378BA681D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.m */,
+				6378BA691D7C94EA0097FDB6 /* DetailItem.h */,
+				6378BA6A1D7C94EA0097FDB6 /* DetailItem.m */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		6378BA701D7C968F0097FDB6 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				6378BA711D7C968F0097FDB6 /* DetailAppAssembly.h */,
+				6378BA721D7C968F0097FDB6 /* DetailAppAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		655C49C82FEAE4DB31A49DB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BFD0FD8ECFCE37303BEB214 /* libPods-Typhoon-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02ADDA409ECC8B7B13FD2B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE2F9CFCB54A04B23287D5 /* Pods-Typhoon-example.debug.xcconfig */,
+				1E332A7A7BA8F5042A8B3C56 /* Pods-Typhoon-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63057CAA1D7AD40700BB075E /* Typhoon-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63057CCD1D7AD40800BB075E /* Build configuration list for PBXNativeTarget "Typhoon-example" */;
+			buildPhases = (
+				1D63E4E163EA962C8E9E3448 /* Check Pods Manifest.lock */,
+				63057CA71D7AD40700BB075E /* Sources */,
+				63057CA81D7AD40700BB075E /* Frameworks */,
+				63057CA91D7AD40700BB075E /* Resources */,
+				A549E635CE428E6B1A060D2E /* Embed Pods Frameworks */,
+				B856600DD1EF2AD6BEF6E87E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typhoon-example";
+			productName = "Typhoon-example";
+			productReference = 63057CAB1D7AD40700BB075E /* Typhoon-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63057CC31D7AD40800BB075E /* Typhoon-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63057CD01D7AD40800BB075E /* Build configuration list for PBXNativeTarget "Typhoon-exampleTests" */;
+			buildPhases = (
+				63057CC01D7AD40800BB075E /* Sources */,
+				63057CC11D7AD40800BB075E /* Frameworks */,
+				63057CC21D7AD40800BB075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63057CC61D7AD40800BB075E /* PBXTargetDependency */,
+			);
+			name = "Typhoon-exampleTests";
+			productName = "Typhoon-exampleTests";
+			productReference = 63057CC41D7AD40800BB075E /* Typhoon-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63057CA31D7AD40700BB075E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Artur Mirrov";
+				TargetAttributes = {
+					63057CAA1D7AD40700BB075E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					63057CC31D7AD40800BB075E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 63057CAA1D7AD40700BB075E;
+					};
+				};
+			};
+			buildConfigurationList = 63057CA61D7AD40700BB075E /* Build configuration list for PBXProject "Typhoon-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63057CA21D7AD40700BB075E;
+			productRefGroup = 63057CAC1D7AD40700BB075E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63057CAA1D7AD40700BB075E /* Typhoon-example */,
+				63057CC31D7AD40800BB075E /* Typhoon-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63057CA91D7AD40700BB075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63057CBE1D7AD40700BB075E /* LaunchScreen.storyboard in Resources */,
+				63057CBB1D7AD40700BB075E /* Assets.xcassets in Resources */,
+				63057CB91D7AD40700BB075E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63057CC21D7AD40800BB075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D63E4E163EA962C8E9E3448 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A549E635CE428E6B1A060D2E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Typhoon-example/Pods-Typhoon-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B856600DD1EF2AD6BEF6E87E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Typhoon-example/Pods-Typhoon-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63057CA71D7AD40700BB075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6378BA541D7C76BB0097FDB6 /* ViewController.m in Sources */,
+				63057CB31D7AD40700BB075E /* AppDelegate.m in Sources */,
+				6378BA631D7C8FAB0097FDB6 /* CoreDataManager.m in Sources */,
+				63F377F71D7ADB7B0020DCBA /* AppAssembly.m in Sources */,
+				63057CB01D7AD40700BB075E /* main.m in Sources */,
+				6378BA531D7C76BB0097FDB6 /* DataModel.m in Sources */,
+				6378BA731D7C968F0097FDB6 /* DetailAppAssembly.m in Sources */,
+				6378BA5E1D7C7DD40097FDB6 /* DetailDataModel.m in Sources */,
+				6378BA6B1D7C94EA0097FDB6 /* DetailItem+CoreDataProperties.m in Sources */,
+				6378BA6C1D7C94EA0097FDB6 /* DetailItem.m in Sources */,
+				6378BA5B1D7C77610097FDB6 /* DetailViewController.m in Sources */,
+				6378BA661D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63057CC01D7AD40800BB075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63057CC91D7AD40800BB075E /* Typhoon_exampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63057CC61D7AD40800BB075E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63057CAA1D7AD40700BB075E /* Typhoon-example */;
+			targetProxy = 63057CC51D7AD40800BB075E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63057CB71D7AD40700BB075E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63057CB81D7AD40700BB075E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63057CBC1D7AD40700BB075E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63057CBD1D7AD40700BB075E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63057CCB1D7AD40800BB075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63057CCC1D7AD40800BB075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63057CCE1D7AD40800BB075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCE2F9CFCB54A04B23287D5 /* Pods-Typhoon-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Typhoon-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.arthur.Typhoon-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63057CCF1D7AD40800BB075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E332A7A7BA8F5042A8B3C56 /* Pods-Typhoon-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Typhoon-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.arthur.Typhoon-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63057CD11D7AD40800BB075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Typhoon-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.arthur.Typhoon-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typhoon-example.app/Typhoon-example";
+			};
+			name = Debug;
+		};
+		63057CD21D7AD40800BB075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Typhoon-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.arthur.Typhoon-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typhoon-example.app/Typhoon-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63057CA61D7AD40700BB075E /* Build configuration list for PBXProject "Typhoon-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63057CCB1D7AD40800BB075E /* Debug */,
+				63057CCC1D7AD40800BB075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63057CCD1D7AD40800BB075E /* Build configuration list for PBXNativeTarget "Typhoon-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63057CCE1D7AD40800BB075E /* Debug */,
+				63057CCF1D7AD40800BB075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63057CD01D7AD40800BB075E /* Build configuration list for PBXNativeTarget "Typhoon-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63057CD11D7AD40800BB075E /* Debug */,
+				63057CD21D7AD40800BB075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6378BA641D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6378BA651D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodel */,
+			);
+			currentVersion = 6378BA651D7C8FBF0097FDB6 /* Typhoon-example.xcdatamodel */;
+			path = "Typhoon-example.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63057CA31D7AD40700BB075E /* Project object */;
+}
