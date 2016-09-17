@@ -45,9 +45,7 @@
 
 
 - (CoreDataManager *)coreDataManager {
-    return [TyphoonDefinition withClass:[CoreDataManager class] configuration:^(TyphoonDefinition *definition) {
-        definition.scope = TyphoonScopeSingleton;
-    }];
+    return [TyphoonDefinition withClass:[CoreDataManager class]];
 }
 
 /* ------------------------------------ NSFetchedResultsController ----------------------------------------------*/
@@ -61,10 +59,11 @@
             [initializer injectParameterWith:nil];
         }];
         [definition injectMethod:@selector(performFetch:) parameters:^(TyphoonMethod *method) {
-            [method injectParameterWith:nil];
+            [method injectParameterWith:[self error]];
         }];
     }];
 }
+
 
 - (NSFetchRequest *)fetchRequest {
     return [TyphoonDefinition withClass:[NSFetchRequest class]configuration:^(TyphoonDefinition *definition) {

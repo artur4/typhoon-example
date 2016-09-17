@@ -31,7 +31,7 @@ static NSString *detailCell = @"detailCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:detailCell forIndexPath:indexPath];
-    id object = [self objectAtIndexPath:indexPath];
+//    id object = [self objectAtIndexPath:indexPath];
     
     cell.textLabel.text = @"2";
     return cell;
@@ -40,7 +40,7 @@ static NSString *detailCell = @"detailCell";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     id <NSFetchedResultsSectionInfo> sectionIndex = self.fetchedResultsController.sections[section];
-    return sectionIndex.numberOfObjects;
+    return 10;//sectionIndex.numberOfObjects;
 }
 
 - (id)objectAtIndexPath:(NSIndexPath*)indexPath {
